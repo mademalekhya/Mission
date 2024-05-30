@@ -57,14 +57,6 @@
 </dependency>
 	</dependencies>
 
-	<distributionManagement>
-        <repository>
-            <id>webapp</id>
-            <url>http://13.233.146.224:8081/repository/webapp/</url>
-        </repository>
-        
-    </distributionManagement>
-
 	<build>
 		<plugins>
 			<plugin>
