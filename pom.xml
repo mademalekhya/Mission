@@ -59,13 +59,10 @@
 
 	<distributionManagement>
         <repository>
-            <id>maven-releases</id>
-            <url>http://13.233.146.224:8081/repository/maven-releases/</url>
+            <id>webapp</id>
+            <url>http://13.233.146.224:8081/repository/webapp/</url>
         </repository>
-        <snapshotRepository>
-            <id>maven-snapshots</id>
-            <url>http://13.233.146.224:8081/repository/maven-snapshots/</url>
-        </snapshotRepository>
+        
     </distributionManagement>
 
 	<build>
