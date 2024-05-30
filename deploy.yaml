@@ -1,0 +1,22 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: nginx-deployment
+  namespace: webapps
+  labels:
+    app: java
+spec:
+  replicas: 3
+  selector:
+    matchLabels:
+      app: java
+  template:
+    metadata:
+      labels:
+        app: java
+    spec:
+      containers:
+      - name: mission
+        image: alekhyamadem/mission:latest
+        ports:
+        - containerPort: 8080
